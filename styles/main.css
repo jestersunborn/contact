@@ -48,3 +48,64 @@ header .menu .menu-item.active a,
 header .menu .menu-item a:hover {
   color: rgba(0, 0, 0, .9);
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 60px);
+}
+
+main .wrap {
+  display: flex;
+}
+
+main .wrap .col {
+  margin-right: 80px;
+}
+
+main .wrap .col:last-child {
+  margin-right: 0;
+}
+
+main .wrap .col h1 {
+  font-weight: 800;
+  color: #404040;
+  margin-bottom: 20px;
+}
+
+main .wrap .col p,
+main .wrap .col a {
+  text-decoration: none;
+  color: #707070;
+}
+
+main .wrap .col a:hover {
+  color: #404040;
+}
+
+footer {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, .6);
+}
+
+footer ul li a:hover {
+  color: rgba(0, 0, 0, .9);
+}
